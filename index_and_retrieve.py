@@ -153,7 +153,7 @@ if __name__ == "__main__":
     # Parameters
     TASK = "search"  # Change this to "index" or "search" for searching
     IMAGE_DIR = "all_images"  # Directory containing images to index
-    QUERY_IMAGE = "query_images/tiger3.jpg"  # Image to search for
+    QUERY_IMAGE = "query_images/"  # Image to search for
     INDEX_PATH = "image_index.faiss"   # Where to save/load the index
     METADATA_PATH = "image_metadata.json"  # Where to save/load the metadata
     
